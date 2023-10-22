@@ -96,8 +96,8 @@ Apos considerar a execucao da bateria dos Testes de Stress mencionado acima, obs
 - [X] A media do tempo total de envio/recebimento dos dados foi de 14,74/sec
 - [X] Tivemos uma media de 7.3 requests/sec
 - [X] Chegamos a um total de 3800 usuários simultaneos
-- [X] O(s) request(s) de "Pesquisar por Todos Livros" apresentaram um tempo de retorno em alguns momentos acima do
-      desejado (é necessario uma análise)
+- [X] O(s) request(s) de "Pesquisar por Todos Livros", "Deletar um livro" e "Pesquisar por 1 livro" apresentaram um tempo
+      de retorno, em alguns momentos acima do desejado (é necessario uma análise)
 
 ## 🚀 Evidencia dos testes de Carga executados
 Dashboards
@@ -110,8 +110,7 @@ Dashboards
 
 ![Captura de ecrã de 2023-10-22 12-15-39](https://github.com/antoniogmartins/Performance/assets/35534493/32c886b7-0001-42cf-828d-35fe31085ff9)
 
-![Captura de ecrã de 2023-10-22 12-15-44](https://github.com/antoniogmartins/Performance/assets/35534493/962acbc3-b196-4c99-bfc2-edecddef707c)
-
+![Captura de ecrã de 2023-10-22 12-33-25](https://github.com/antoniogmartins/Performance/assets/35534493/2a3b586e-8808-41da-b2ee-30d57bf8e55a)
 
 ## 🔖 Análise dos Testes de Stress realizados
 Ja para os testes de stress, utilizamos o seguinte range de testes: 

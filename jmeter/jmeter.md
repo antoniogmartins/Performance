@@ -59,15 +59,15 @@
 Obs.: É preciso que vc esteja conectado a internet
 
 ## 🔖 Análise do Smoke Tests realizados
-Apos considerar a execucao dos smoke testes realizados utilizando 1 usuario, durante 60 segundos, observamos que: 
-- [X] Consideramos uma requisicao utilizando o metodo POST e o metodo GET
+Apos considerar a execucao dos smoke testes realizados utilizando 10 usuarios, durante 20 segundos, observamos que: 
+- [X] Consideramos varias requisições de utilizando o metodo GET, POST, PUT e o metodo DELETE
 - [X] Foi considerado um sleep de 0.3s entre os requests  
 - [X] Não foram apresentadas falhas durante a execucao dos testes
 - [X] Foram realizadas validações sobre o status code com sucesso - smoke tests
-- [X] A quantidade de dados recebidos foi de 1.2mb e enviados 31Kb para o servidor
+- [X] A quantidade de dados recebidos foi de 0.30 mb e enviados 0.91Kb para o servidor
 - [X] A media do tempo total de envio/recebimento dos dados foi de 538ms
-- [X] Atingimos a quantidade de 51 requisicoes durante este perido de 1m01.7ss
-- [X] Observamos que tivemos picos de 423.67s (Considerando os 2 requests)
+- [X] Atingimos a quantidade de 50 requisicoes durante este perido de 20s
+- [X] Observamos que tivemos picos de 45.71 (considerandoo o request de Pesquisar por todos os livros)
 
 ## 🚀 Evidencia dos Smoke Tests executados
 Dashboards

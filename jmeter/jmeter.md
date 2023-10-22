@@ -1,4 +1,4 @@
-# Jmeter (Testes de Stress/Carga/Pico incluindo o SmokeTests - Api)
+# Jmeter (Testes de Stress/Carga/Pico - Api)
 
 ### 🚀 Cadastro/Consulta de Livros
 ## 🔖 Requisitos funcionais

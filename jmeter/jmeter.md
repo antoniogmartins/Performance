@@ -52,14 +52,19 @@
   Ex:
   Para rodar os testes
   => Windows
+
    //jmeter//bin
+  
   ./jmeter -n -t /localdoprojeto/HTTP_Request_000133.jmx -l log.csv
 
   => Linux e MacOS
+
    //jmeter//bin
+
   ./jmeter -n -t /localdoprojeto/HTTP_Request_000133.jmx -l log.csv
 
   => Gerar relatorio 
+
   ./jmeter -n -t /localdoprojeto/HTTP_Request_000133.jmx -l log.csv -e -o <dashboard_folder>
   
   Para simular utilizando 10 usuarios(vus) em 30 segundos(duration):  

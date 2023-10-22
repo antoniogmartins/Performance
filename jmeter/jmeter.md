@@ -72,7 +72,15 @@ Apos considerar a execucao dos smoke testes realizados utilizando 1 usuario, dur
 ## 🚀 Evidencia dos Smoke Tests executados
 Dashboards
 
+![Captura de ecrã de 2023-10-22 11-40-49](https://github.com/antoniogmartins/Performance/assets/35534493/3750c976-b4f0-4e2f-be2b-55a658b31178)
 
+![Captura de ecrã de 2023-10-22 11-40-53](https://github.com/antoniogmartins/Performance/assets/35534493/155408ae-cc40-44a4-bbd6-f476159be6f0)
+
+![Captura de ecrã de 2023-10-22 11-41-06](https://github.com/antoniogmartins/Performance/assets/35534493/e9284ed8-84a0-46e3-a318-0d297df24c41)
+
+![Captura de ecrã de 2023-10-22 11-41-11](https://github.com/antoniogmartins/Performance/assets/35534493/41daf7ac-bc40-426c-ad5c-be5bf63c39c2)
+
+![Captura de ecrã de 2023-10-22 11-41-25](https://github.com/antoniogmartins/Performance/assets/35534493/9b0697ea-2b9d-47ad-80b5-697a4bf0a29f)
 
 
 ## 🔖 Análise dos Testes de Carga realizados

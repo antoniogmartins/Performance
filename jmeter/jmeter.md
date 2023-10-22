@@ -11,23 +11,21 @@
 - [X] Deve retornar 200 ao deletar um livros cadastrado
 - [X] Deve retornar 400 ao tentar pesquisar pelos livros cadastrados utilizando um hostname inválido 
 
-| campos             | descrição                             | tipo     | obrigatório |
+| campo(s)           | descrição                             | tipo     | obrigatório |
 | :----------------- | :------------------------------------ | :------- | :---------- |
 | id                 | identificador do cadastro de um livro | numero   | sim         |
 | title              | nome do livro                         | texto    | sim         |
-| description        | preco total                           | numero   | sim         |
-| depositpaid        | valor do pagamento do deposito        | valor    | sim         |
-| bookingdates       | data do booking                       | data     | sim         |
-| checking           | data do checking                      | data     | sim         |
-| checkout           | data do checkout                      | data     | sim         |
-| additionaneeds     | necessidades adicionais               | texto    | sim         |
+| description        | descrição do livro                    | texto    | sim         |
+| pagecount          | quantidades de paginas do livro       | numero   | sim         |
+| excerpt            | detalhes sobre o livro                | texto    | sim         |
+| publishDate        | data da publicação do livro           | data     | sim         |
 
 ## 🔖 Requisitos não funcionais
 ### Cadastro de um Livro
 
-- [X] O cadastro com sucesso deve ocorrer em até 2 segundo(s)
+- [X] O cadastro com sucesso deve ocorrer em até 1 segundo(s)
 - [X] Cadastros sem sucesso devem ocorrer em até 2 segundo(s)
-- [X] Deve poder cadastrar até 1000 livros simultâneos
+- [X] Deve poder cadastrar até 50 livros simultâneos
 - [X] A margem de erro no cadastro deve ser de pelo menos 2%
 
 ### Consulta pelos Livros

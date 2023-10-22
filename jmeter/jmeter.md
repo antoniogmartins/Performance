@@ -88,20 +88,29 @@ Ja para os testes de carga, utilizamos o seguinte range de testes:
     { duracao: '480s', com 20,30,40,50,60,70,80,90 e 100 usuários }
     
 Apos considerar a execucao da bateria dos Testes de Stress mencionado acima, observamos que: 
-- [X] Consideramos uma requisicao utilizando o metodo POST e o metodo GET
-- [X] Foi considerado o sleep de 0.3s entre os requests  
-- [X] Não foram apresentadas falhas dos requests durante a execucao dos testes
-- [X] Foi apresentadas uma falha quanto a http_req_duration = tempo de resposta superou 1000s
-- [X] Foram realizadas validações sobre o status code com sucesso
-- [X] A quantidade de dados recebidos foi de 57mb e enviados 688Kb para o servidor
-- [X] A media do tempo total de envio/recebimento dos dados foi de 33,91ms
-- [X] Atingimos a quantidade de 1060 requisicoes durante este perido de 1m33s
-- [X] Observamos que tivemos picos de 6.06s (Considerando os 2 requests)
+- [X] Consideramos varias requisições de utilizando o metodo GET, POST, PUT e o metodo DELETE
+- [X] Foram realizados validações sobre o status code com sucesso
+- [X] Taxas de erros/quantidades de erros associados ao request de "Pesquisar Livros" abaixo de 1%
+- [X] A quantidade de dados recebidos foi de 1.10Kb/sec e enviados 0.88 Kb/sec para o servidor. Somente o request de
+      Pesquisar 1 livro que estava se comportando diferente do esperado
+- [X] A media do tempo total de envio/recebimento dos dados foi de 10.1/sec
+- [X] Tivemos uma media de 2,5 requests/sec
+- [X] Chegamos a um total de 180 usuários simultaneos
+- [X] O(s) request(s) de "Adicionar Livro", "Atualizar Livros" e "Pesquisar por Todos Livros" apresentaram um tempo de
+      retorno em alguns momentos acima do desejado (é necessario uma análise)
 
 ## 🚀 Evidencia dos testes de Carga executados
 Dashboards
 
+![Captura de ecrã de 2023-10-22 12-15-22](https://github.com/antoniogmartins/Performance/assets/35534493/c5346791-b107-4288-8492-e8fea290b5b7)
 
+![Captura de ecrã de 2023-10-22 12-15-25](https://github.com/antoniogmartins/Performance/assets/35534493/9db3e280-8f0e-4869-9b71-2846142ff7ab)
+
+![Captura de ecrã de 2023-10-22 12-15-32](https://github.com/antoniogmartins/Performance/assets/35534493/94a8430c-d989-40ba-9eb0-ce26abc3be8c)
+
+![Captura de ecrã de 2023-10-22 12-15-39](https://github.com/antoniogmartins/Performance/assets/35534493/32c886b7-0001-42cf-828d-35fe31085ff9)
+
+![Captura de ecrã de 2023-10-22 12-15-44](https://github.com/antoniogmartins/Performance/assets/35534493/962acbc3-b196-4c99-bfc2-edecddef707c)
 
 
 ## 🔖 Análise dos Testes de Stress realizados

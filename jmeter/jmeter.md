@@ -115,7 +115,6 @@ Dashboards
 ## 🔖 Análise dos Testes de Stress realizados
 Ja para os testes de stress, utilizamos o seguinte range de testes: 
     { duracao: '275s', com 25 usuários },
-    
     { duracao: '250s', com 50 usuários },
     { duracao: '225s', com 75 usuários },
     { duracao: '200s', com 100 usuários },
@@ -137,6 +136,18 @@ Ja para os testes de stress, utilizamos o seguinte range de testes:
 ## 🚀 Evidencia dos Testes de Stress executados
 Dashboards
 
+![Captura de ecrã de 2023-10-22 12-38-40](https://github.com/antoniogmartins/Performance/assets/35534493/69f8d044-a7ca-44a2-a483-7d067107bee9)
+
+
+![Captura de ecrã de 2023-10-22 12-36-40](https://github.com/antoniogmartins/Performance/assets/35534493/e1bddbd9-a1c2-45fd-b937-def288d24a15)
+
+![Captura de ecrã de 2023-10-22 12-36-44](https://github.com/antoniogmartins/Performance/assets/35534493/1609a46e-f169-4b3a-b0f0-ed3600cd9660)
+
+![Captura de ecrã de 2023-10-22 12-37-47](https://github.com/antoniogmartins/Performance/assets/35534493/30a84979-0b21-4487-9a78-2ef8104d8c5c)
+
+![Captura de ecrã de 2023-10-22 12-37-53](https://github.com/antoniogmartins/Performance/assets/35534493/c9e8cf8e-8852-40b2-969a-2b1c92ffd3c0)
+
+![Captura de ecrã de 2023-10-22 12-37-56](https://github.com/antoniogmartins/Performance/assets/35534493/06e10ec3-8161-48b2-a849-ca05b6aee5cf)
 
 
 

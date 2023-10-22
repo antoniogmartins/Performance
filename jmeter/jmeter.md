@@ -67,7 +67,7 @@ Apos considerar a execucao dos smoke testes realizados utilizando 10 usuarios, d
 - [X] A quantidade de dados recebidos foi de 0.30 mb e enviados 0.91Kb para o servidor
 - [X] A media do tempo total de envio/recebimento dos dados foi de 538ms
 - [X] Atingimos a quantidade de 50 requisicoes durante este perido de 20s
-- [X] Observamos que tivemos picos de 45.71 (considerandoo o request de Pesquisar por todos os livros)
+- [X] Observamos que tivemos picos de 45.71 (considerando o request de Pesquisar por todos os livros)
 
 ## 🚀 Evidencia dos Smoke Tests executados
 Dashboards

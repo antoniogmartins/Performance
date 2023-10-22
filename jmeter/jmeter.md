@@ -37,13 +37,13 @@
 
 ## 🚀 Tecnologias
 - [Restfull-Broker] - Local onde se encontra disponibilizada a Api
-- [k6] - ferramenta utilzada para criacao dos scritps de testes automatizados considerando os teste de carga, performance, stress etc...
+- [Jmeter] - ferramenta utilzada para criacao dos scripts de testes automatizados considerando os teste de carga, performance, stress, pico, etc...
 - [Geracao de massa] - para a geracao de massa dinamica, poderiamos ter utilizado o uuuid ou o randomString
   Fontes:  
 
 
 ## 👨🏻‍💻 Como executar os testes de performance em cima das apis, do projeto booker
-- Faça download e instale o K6 em seu computador
+- Faça download e instale o jmeter em seu computador
 - Crie uma pasta em seu computador, 
 - Baixe os scripts de testes automatizados dentro desta pasta utilizando o seguinte comando:
   Git clone <<nome_projeto>>
@@ -72,15 +72,7 @@ Apos considerar a execucao dos smoke testes realizados utilizando 1 usuario, dur
 ## 🚀 Evidencia dos Smoke Tests executados
 Dashboards
 
-![Captura de ecrã de 2023-10-20 16-49-47](https://github.com/antoniogmartins/JmeterServices/assets/35534493/c7ed0fb7-af96-46db-91a7-fcda9c99a68a)
 
-![Captura de ecrã de 2023-10-20 16-49-51](https://github.com/antoniogmartins/JmeterServices/assets/35534493/13ec6057-de56-420a-bd78-12509e104d86)
-
-![Captura de ecrã de 2023-10-20 16-49-53](https://github.com/antoniogmartins/JmeterServices/assets/35534493/936ef8e2-6b87-468d-bd0a-e5ccc9d72c8d)
-
-![Captura de ecrã de 2023-10-20 16-49-58](https://github.com/antoniogmartins/JmeterServices/assets/35534493/871a6039-1634-4d56-889b-fc6d90905662)
-
-![Captura de ecrã de 2023-10-20 16-50-00](https://github.com/antoniogmartins/JmeterServices/assets/35534493/83ebc43b-7bc5-4581-afb4-4a210046aab1)
 
 
 ## 🔖 Análise dos Testes de Carga realizados
@@ -101,15 +93,7 @@ Apos considerar a execucao da bateria dos Testes de Stress mencionado acima, obs
 ## 🚀 Evidencia dos testes de Carga executados
 Dashboards
 
-![Captura de ecrã de 2023-10-20 16-53-06](https://github.com/antoniogmartins/JmeterServices/assets/35534493/23393a05-df4d-4a6a-807d-85459f6ba13f)
 
-![Captura de ecrã de 2023-10-20 16-53-09](https://github.com/antoniogmartins/JmeterServices/assets/35534493/959d49fb-69b4-44ab-98d0-1031622ce181)
-
-![Captura de ecrã de 2023-10-20 16-53-12](https://github.com/antoniogmartins/JmeterServices/assets/35534493/d153635e-eb85-417b-9342-b56a14bb6daf)
-
-![Captura de ecrã de 2023-10-20 16-53-16](https://github.com/antoniogmartins/JmeterServices/assets/35534493/89799c68-1008-4f41-a505-7cf38017c8c4)
-
-![Captura de ecrã de 2023-10-20 16-53-33](https://github.com/antoniogmartins/JmeterServices/assets/35534493/dd3c71d3-419c-4feb-98c8-cc1a09b4a8b4)
 
 
 ## 🔖 Análise dos Testes de Stress realizados
@@ -136,15 +120,7 @@ Ja para os testes de stress, utilizamos o seguinte range de testes:
 ## 🚀 Evidencia dos Testes de Stress executados
 Dashboards
 
-![Captura de ecrã de 2023-10-20 14-36-16](https://github.com/antoniogmartins/JmeterServices/assets/35534493/9a5cf174-a626-41f2-aece-ce15af587665)
 
-![Captura de ecrã de 2023-10-20 14-36-19](https://github.com/antoniogmartins/JmeterServices/assets/35534493/f98b0e1d-3ac6-4bc9-ad3b-7a86bce9068d)
-
-![Captura de ecrã de 2023-10-20 14-36-22](https://github.com/antoniogmartins/JmeterServices/assets/35534493/5ff625aa-89ac-49d6-9701-92c0fabf869a)
-
-![Captura de ecrã de 2023-10-20 14-36-27](https://github.com/antoniogmartins/JmeterServices/assets/35534493/510241cd-2b02-4f03-878d-dd2eebf0ece9)
-
-![Captura de ecrã de 2023-10-20 14-36-34](https://github.com/antoniogmartins/JmeterServices/assets/35534493/3413a7ae-cbeb-48e4-a2e2-4a5ad43c2f9b)
 
 
 ## 🔖 Análise dos Testes de Pico realizados
@@ -165,15 +141,7 @@ Ja para os testes de carga, utilizamos o seguinte range de testes:
 ## 🚀 Evidencia dos Testes de Pico executados
 
 Dashboards
-![Captura de ecrã de 2023-10-20 13-35-31](https://github.com/antoniogmartins/JmeterServices/assets/35534493/536fb293-1740-46b6-9e57-32be7eb59024)
 
-![Captura de ecrã de 2023-10-20 14-12-44](https://github.com/antoniogmartins/JmeterServices/assets/35534493/981e5ed0-82e5-41c7-9c8b-a285f9067c65)
-
-![Captura de ecrã de 2023-10-20 14-12-53](https://github.com/antoniogmartins/JmeterServices/assets/35534493/cbb13751-2f73-4426-bf78-7d8a4af5dc9f)
-
-![Captura de ecrã de 2023-10-20 14-12-57](https://github.com/antoniogmartins/JmeterServices/assets/35534493/71d8af6c-3bfc-488d-a632-6d71b9f8182a)
-
-![Captura de ecrã de 2023-10-20 14-13-02](https://github.com/antoniogmartins/JmeterServices/assets/35534493/f1303b6f-1012-407f-aa09-445f82a6dd21)
 
 
 

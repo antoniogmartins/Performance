@@ -141,7 +141,6 @@ Dashboards
 
 ![Captura de ecrã de 2023-10-22 12-38-40](https://github.com/antoniogmartins/Performance/assets/35534493/69f8d044-a7ca-44a2-a483-7d067107bee9)
 
-
 ![Captura de ecrã de 2023-10-22 12-36-40](https://github.com/antoniogmartins/Performance/assets/35534493/e1bddbd9-a1c2-45fd-b937-def288d24a15)
 
 ![Captura de ecrã de 2023-10-22 12-36-44](https://github.com/antoniogmartins/Performance/assets/35534493/1609a46e-f169-4b3a-b0f0-ed3600cd9660)
@@ -151,7 +150,6 @@ Dashboards
 ![Captura de ecrã de 2023-10-22 12-37-53](https://github.com/antoniogmartins/Performance/assets/35534493/c9e8cf8e-8852-40b2-969a-2b1c92ffd3c0)
 
 ![Captura de ecrã de 2023-10-22 12-37-56](https://github.com/antoniogmartins/Performance/assets/35534493/06e10ec3-8161-48b2-a849-ca05b6aee5cf)
-
 
 
 ## 🔖 Análise dos Testes de Pico realizados
@@ -182,10 +180,13 @@ Dashboards
 
 
 
+
+
+
 ## 🚀  Integracao Continua
 É possivel realizar os testes de performance(stress/carga/pico) utilizando o GitActions configurado em 
-//github/workflows/k6.yml
-=> Sempre que uma versao do codigo do script de teste:  "K6_pap_teste_carga_performance.js" é atualizado automaticamente é gerado um job e os testes são executados. Ao final serão exibidas as metricas dos testes
+//github/workflows/jmeter.yml
+=> Sempre que uma versao do codigo do script de teste:  "HTTP_Request_000133.jmx" é atualizado automaticamente é gerado um job e os testes são executados. Ao final serão exibidas as metricas dos testes
 
 ## 🚀 Evidencia dos Testes de Performance sendo executados direto do GitActions
 

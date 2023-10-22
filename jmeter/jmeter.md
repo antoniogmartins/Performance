@@ -159,13 +159,13 @@ Ja para os testes de carga, utilizamos o seguinte range de testes:
 - [X] Consideramos varias requisições de utilizando o metodo GET, POST, PUT e o metodo DELETE
 - [X] Foram realizados validações sobre o status code com sucesso
 - [X] Pequenas taxas de erros/quantidades de erros ao executar os testes abaixo de 1%
-- [X] A quantidade de dados recebidos foi de 2.80 Kb/sec e enviados 2.2Kb/sec para o servidor. Somente o request de
+- [X] A quantidade de dados recebidos foi de 5.70 Kb/sec e enviados 3.5Kb/sec para o servidor. Somente o request de
       Pesquisar 1 livro que estava se comportando diferente do esperado
-- [X] A media do tempo total de envio/recebimento dos dados foi de 24,4 sec
-- [X] Tivemos uma media de 4,5 requests/sec
-- [X] Chegamos a um total de 160 usuários simultaneos
-- [X] O(s) request(s) de "Adicionar Livro" e "Pesquisar por Todos Livros" apresentaram um tempo de retorno em alguns
-      momentos acima do desejado (é necessario uma análise) 
+- [X] A media do tempo total de envio/recebimento dos dados foi de 16,70 sec
+- [X] Tivemos uma media de 8,8 requests/sec
+- [X] Chegamos a um total de 6000 usuários simultaneos
+- [X] O(s) request(s) de "Pesquisar por Todos Livros" apresentaram um tempo de retorno em alguns momentos acima do
+      desejado (é necessario uma análise) 
 
 ## 🚀 Evidencia dos Testes de Pico executados
 

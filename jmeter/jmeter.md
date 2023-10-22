@@ -173,6 +173,12 @@ Ja para os testes de carga, utilizamos o seguinte range de testes:
 
 Dashboards
 
+![Captura de ecrã de 2023-10-22 13-00-33](https://github.com/antoniogmartins/Performance/assets/35534493/2fa81ccf-db5f-4d37-b890-f2ace77ed837)
+
+
+
+
+
 
 
 

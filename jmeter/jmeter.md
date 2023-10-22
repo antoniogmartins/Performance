@@ -91,13 +91,13 @@ Apos considerar a execucao da bateria dos Testes de Stress mencionado acima, obs
 - [X] Consideramos varias requisições de utilizando o metodo GET, POST, PUT e o metodo DELETE
 - [X] Foram realizados validações sobre o status code com sucesso
 - [X] Taxas de erros/quantidades de erros associados ao request de "Pesquisar Livros" abaixo de 1%
-- [X] A quantidade de dados recebidos foi de 1.10Kb/sec e enviados 0.88 Kb/sec para o servidor. Somente o request de
-      Pesquisar 1 livro que estava se comportando diferente do esperado
-- [X] A media do tempo total de envio/recebimento dos dados foi de 10.1/sec
-- [X] Tivemos uma media de 2,5 requests/sec
-- [X] Chegamos a um total de 180 usuários simultaneos
-- [X] O(s) request(s) de "Adicionar Livro", "Atualizar Livros" e "Pesquisar por Todos Livros" apresentaram um tempo de
-      retorno em alguns momentos acima do desejado (é necessario uma análise)
+- [X] A quantidade de dados recebidos foi de 3.25Kb/sec e enviados 3.37Kb/sec para o servidor. Para o request de
+      Pesquisar 1 livro que estava se comportando diferente do esperado quanto ao recebimento de dados
+- [X] A media do tempo total de envio/recebimento dos dados foi de 14,74/sec
+- [X] Tivemos uma media de 7.3 requests/sec
+- [X] Chegamos a um total de 3800 usuários simultaneos
+- [X] O(s) request(s) de "Pesquisar por Todos Livros" apresentaram um tempo de retorno em alguns momentos acima do
+      desejado (é necessario uma análise)
 
 ## 🚀 Evidencia dos testes de Carga executados
 Dashboards

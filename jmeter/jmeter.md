@@ -1,7 +1,4 @@
-# Jmeter (Testes de Performance (Stress/Carga/Pico) incluindo o SmokeTests - Api - Services)
-
-🚀 Collections:
-#### Nome do Arquivo: Bookers Exportado.postman_collection.json
+# Jmeter (Testes de Performance (Stress/Carga/Pico) incluindo o SmokeTests - Api)
 
 ### 🚀 Cadastro/Consulta de Bookers
 ## 🔖 Requisitos funcionais

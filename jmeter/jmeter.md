@@ -102,7 +102,7 @@ Apos considerar a execucao da bateria dos Testes de Stress mencionado acima, obs
 ## 🚀 Evidencia dos testes de Carga executados
 Dashboards
 
-![Captura de ecrã de 2023-10-22 12-57-12](https://github.com/antoniogmartins/Performance/assets/35534493/d828eea7-d0ad-4c8b-b40d-348531032cb2)
+![Captura de ecrã de 2023-10-22 12-59-16](https://github.com/antoniogmartins/Performance/assets/35534493/35698453-6df4-4df6-9ff4-fff6931505f2)
 
 
 ![Captura de ecrã de 2023-10-22 12-15-22](https://github.com/antoniogmartins/Performance/assets/35534493/c5346791-b107-4288-8492-e8fea290b5b7)

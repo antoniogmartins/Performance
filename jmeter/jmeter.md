@@ -209,10 +209,10 @@ Para uma melhor visualizacao de todos os membros do times é possivel gerar um r
 
 
 ## 🚀 Análise Final
-Foi observado que todos os testes passaram com exito, mas as apis envolvidas na execucao dos testes demonstraram que estao com o tempo de retorno acima do esperado: 2s, além da ocorrência de algums falhas, sendo necessária uma revisao por parte da equipe de desenvolvimento
+Foi observado que todos os testes passaram com exito, mas as apis envolvidas na execucao dos testes demonstraram que algumas apis como a de buscar por todos os livros está com o tempo de retorno acima do esperado, sendo necessária uma revisao por parte da equipe de desenvolvimento
 
 ## 🚀 Fontes - Documentação da Api
-https://restful-booker.herokuapp.com/apidoc/
+
 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

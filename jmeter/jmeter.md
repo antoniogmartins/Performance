@@ -173,15 +173,15 @@ Dashboards
 
 ![Captura de ecrã de 2023-10-22 13-00-33](https://github.com/antoniogmartins/Performance/assets/35534493/2fa81ccf-db5f-4d37-b890-f2ace77ed837)
 
+![Captura de ecrã de 2023-10-22 13-07-39](https://github.com/antoniogmartins/Performance/assets/35534493/0a68d2f9-30c8-486c-8854-38e79905f9e5)
 
+![Captura de ecrã de 2023-10-22 13-07-41](https://github.com/antoniogmartins/Performance/assets/35534493/6060147d-69c1-45e6-b06e-07b59e65ed83)
 
+![Captura de ecrã de 2023-10-22 13-07-47](https://github.com/antoniogmartins/Performance/assets/35534493/9857f830-4c16-4375-a4fd-5e6c3c1d78b7)
 
+![Captura de ecrã de 2023-10-22 13-07-49](https://github.com/antoniogmartins/Performance/assets/35534493/ffd29a75-fb2b-449e-b62c-97a96761d4a7)
 
-
-
-
-
-
+![Captura de ecrã de 2023-10-22 13-07-55](https://github.com/antoniogmartins/Performance/assets/35534493/6f4bc771-1367-48ee-8248-6ce9e0cabc9d)
 
 ## 🚀  Integracao Continua
 É possivel realizar os testes de performance(stress/carga/pico) utilizando o GitActions configurado em 

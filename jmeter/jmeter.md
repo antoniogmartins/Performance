@@ -47,11 +47,17 @@
 - Crie uma pasta em seu computador, 
 - Baixe os scripts de testes automatizados dentro desta pasta utilizando o seguinte comando:
   Git clone <<nome_projeto>>
-- Dentro do projeto, na pasta "Scripts_Testes" >> "k6_pap_teste_carga_performance.js"
+- Dentro do projeto, na pasta "Scripts_Testes" >> "HTTP_Request_000133.jmx"
   execute a seguinte linha de comando:
   Ex:
   Para rodar os testes
-  k6 run <<k6_pap_teste_carga_performance.js>>
+  // Windows
+  //jmeter//bin
+  ./jmeter -n -t /localdoprojeto/HTTP_Request_000133.jmx -l log.csv
+
+  // Linux e MacOS
+  //jmeter//bin
+  ./jmeter -n -t /localdoprojeto/HTTP_Request_000133.jmx -l log.csv
   
   Para simular utilizando 10 usuarios(vus) em 30 segundos(duration):  
   k6 run --vus 10 --duration 30s <<k6_pap_teste_carga_performance.js>>

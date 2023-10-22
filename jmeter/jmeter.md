@@ -1,13 +1,13 @@
 # Jmeter (Testes de Performance (Stress/Carga/Pico) incluindo o SmokeTests - Api)
 
-### 🚀 Cadastro/Consulta de Bookers
+### 🚀 Cadastro/Consulta de Livros
 ## 🔖 Requisitos funcionais
-- [X] Deve retornar os bookingid ao cadastrar um novo booker
-- [X] Deve retornar 201 ao cadastrar um novo booker
+- [X] Deve retornar os livros ao cadastrar um novo livros
+- [X] Deve retornar 201 ao cadastrar um novo livro
 - [X] Deve retornar 400 ao tentar cadastrar com o payload vazio ou incompleto
-- [X] Deve retornar 400 se o campo depositpaid ou o totalprice estiver(em) nulo(s)
-- [X] Deve retornar 200 ao buscar por todos os bookers cadastrados
-- [X] Deve retornar 400 ao tentar pesquisar pelos bookers cadastrados utilizando um hostname inválido 
+- [X] Deve retornar 400 se o campo  estiver(em) nulo(s)
+- [X] Deve retornar 200 ao buscar por todos os livros cadastrados
+- [X] Deve retornar 400 ao tentar pesquisar pelos livros cadastrados utilizando um hostname inválido 
 
 | campos             | descrição                             | tipo     | obrigatório |
 | :----------------- | :------------------------------------ | :------- | :---------- |
@@ -21,18 +21,18 @@
 | additionaneeds     | necessidades adicionais               | texto    | sim         |
 
 ## 🔖 Requisitos não funcionais
-### Cadastro do Booker
+### Cadastro de um Livro
 
 - [X] O cadastro com sucesso deve ocorrer em até 2 segundo(s)
 - [X] Cadastros sem sucesso devem ocorrer em até 2 segundo(s)
-- [X] Deve poder cadastrar até 1000 bookers simultâneos
+- [X] Deve poder cadastrar até 1000 livros simultâneos
 - [X] A margem de erro no cadastro deve ser de pelo menos 2%
 
-### Consulta pelos Bookers
+### Consulta pelos Livros
 
 - [X] A Cnsulta realizada com sucesso deve ocorrer em até 1 segundo(s)
 - [X] As Consulta sem sucesso devem ocorrer em até 1 segundo(s)
-- [X] Deve poder Consultar por todos bookers cadastrados de forma simulatanea
+- [X] Deve poder Consultar por todos livros cadastrados de forma simulatanea
 - [X] A margem de erro na consulta deve ser de pelo menos 1%
 
 ## 🚀 Tecnologias

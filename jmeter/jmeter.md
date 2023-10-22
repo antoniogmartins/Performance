@@ -66,9 +66,7 @@
   => Gerar relatorio 
 
   ./jmeter -n -t /localdoprojeto/HTTP_Request_000133.jmx -l log.csv -e -o <dashboard_folder>
-  
-  Para simular utilizando 10 usuarios(vus) em 30 segundos(duration):  
-  k6 run --vus 10 --duration 30s <<k6_pap_teste_carga_performance.js>>
+
 
 Obs.: É preciso que vc esteja conectado a internet
 

@@ -2,18 +2,20 @@
 
 ### 🚀 Cadastro/Consulta de Livros
 ## 🔖 Requisitos funcionais
-- [X] Deve retornar os livros ao cadastrar um novo livros
+- [X] Deve retornar todos os livros cadastrados
 - [X] Deve retornar 201 ao cadastrar um novo livro
-- [X] Deve retornar 400 ao tentar cadastrar com o payload vazio ou incompleto
+- [X] Deve retornar 400/415 ao tentar cadastrar com o payload vazio ou incompleto
 - [X] Deve retornar 400 se o campo  estiver(em) nulo(s)
 - [X] Deve retornar 200 ao buscar por todos os livros cadastrados
+- [X] Deve retornar 200 ao alterar as informações correspondente a um livro cadastrado
+- [X] Deve retornar 200 ao deletar um livros cadastrado
 - [X] Deve retornar 400 ao tentar pesquisar pelos livros cadastrados utilizando um hostname inválido 
 
 | campos             | descrição                             | tipo     | obrigatório |
 | :----------------- | :------------------------------------ | :------- | :---------- |
-| firstname          | primeiro nome ao cadastrar um booker  | texto    | sim         |
-| lastname           | segundo nome ao cadastrar um booker   | texto    | sim         |
-| totalprice         | preco total                           | numero   | sim         |
+| id                 | identificador do cadastro de um livro | numero   | sim         |
+| title              | nome do livro                         | texto    | sim         |
+| description        | preco total                           | numero   | sim         |
 | depositpaid        | valor do pagamento do deposito        | valor    | sim         |
 | bookingdates       | data do booking                       | data     | sim         |
 | checking           | data do checking                      | data     | sim         |

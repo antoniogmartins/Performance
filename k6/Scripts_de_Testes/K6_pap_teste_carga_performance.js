@@ -17,12 +17,9 @@ const url  = 'https://restful-booker.herokuapp.com/booking';
     insecureSkipTLSVerify: true,
   
   stages: [
-    { duration: '5s', target: 30 },
-    { duration: '10s', target: 50 },
-    { duration: '20s', target: 100 },
-    { duration: '20s', target: 20 },
-    { duration: '10s', target: 50 },
-    { duration: '5s', target: 0 },
+    { duration: '1m', target: 20 },
+    { duration: '2m', target: 150 },
+    { duration: '1m', target: 20 },
   ],
   
   thresholds: {
@@ -44,9 +41,9 @@ export default function () {
 
    res_get = http.get(url,params);
 
-   console.log('================================================================================================='); 
-   console.log('======== GET: RESPONSE ======='); 
-   console.log(res_get.body);  
+   //console.log('================================================================================================='); 
+   //console.log('======== GET: RESPONSE ======='); 
+   //console.log(res_get.body);  
    check(res_get, { 
         'Retornando o status Code 200: sucesso': (res_get) => res_get.status === 200,
         'Ta retornando no body do get a informacao: bookingid: sucesso': (res_get) => res_get.body.includes ('bookingid'),
@@ -63,11 +60,11 @@ export default function () {
     headers: {'Content-Type':'application/json','Accept':'application/json'},
     });
 
-   console.log('==================================================================================================='); 
-   console.log('======== POST: RESPONSE ======='); 
-   console.log(res_post.body);
-   console.log(res_post.status);
-   console.log('response: ',res_post.json());  
+   //console.log('==================================================================================================='); 
+   //console.log('======== POST: RESPONSE ======='); 
+   //console.log(res_post.body);
+   //console.log(res_post.status);
+   //console.log('response: ',res_post.json());  
    check(res_post, {      
       'Retornando o status Code 200: sucesso': (res_post) => res_post.status === 200,
       'Ta retornando no cordpo do response a informacao bookingid: sucesso': (res_post) => res_post.body.includes('bookingid'),

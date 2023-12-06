@@ -17,9 +17,12 @@ const url  = 'https://restful-booker.herokuapp.com/booking';
     insecureSkipTLSVerify: true,
   
   stages: [
-    { duration: '1m', target: 20 },
-    { duration: '2m', target: 150 },
-    { duration: '1m', target: 20 },
+    { duration: '5s', target: 30 },
+    { duration: '10s', target: 50 },
+    { duration: '20s', target: 100 },
+    { duration: '20s', target: 20 },
+    { duration: '10s', target: 50 },
+    { duration: '5s', target: 0 },
   ],
   
   thresholds: {

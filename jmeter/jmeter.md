@@ -82,7 +82,6 @@ Apos considerar a execucao dos smoke testes realizados utilizando 10 usuarios, d
 - [X] Observamos que tivemos picos de 45.71 (considerando o request de Pesquisar por todos os livros)
 
 ## 🚀 Evidencia dos Smoke Tests executados
-Dashboards
 
 ![Captura de ecrã de 2023-10-22 11-40-49](https://github.com/antoniogmartins/Performance/assets/35534493/3750c976-b4f0-4e2f-be2b-55a658b31178)
 
@@ -112,7 +111,6 @@ Apos considerar a execucao da bateria dos Testes de Stress mencionado acima, obs
       de retorno, em alguns momentos acima do desejado (é necessario uma análise)
 
 ## 🚀 Evidencia dos testes de Carga executados
-Dashboards
 
 ![Captura de ecrã de 2023-10-22 12-59-16](https://github.com/antoniogmartins/Performance/assets/35534493/35698453-6df4-4df6-9ff4-fff6931505f2)
 
@@ -149,7 +147,6 @@ Ja para os testes de stress, utilizamos o seguinte range de testes:
       retorno em alguns momentos acima do desejado (é necessario uma análise)
 
 ## 🚀 Evidencia dos Testes de Stress executados
-Dashboards
 
 ![Captura de ecrã de 2023-10-22 12-38-40](https://github.com/antoniogmartins/Performance/assets/35534493/69f8d044-a7ca-44a2-a483-7d067107bee9)
 
@@ -180,8 +177,6 @@ Ja para os testes de carga, utilizamos o seguinte range de testes:
       desejado (é necessario uma análise) 
 
 ## 🚀 Evidencia dos Testes de Pico executados
-
-Dashboards
 
 ![Captura de ecrã de 2023-10-22 13-00-33](https://github.com/antoniogmartins/Performance/assets/35534493/2fa81ccf-db5f-4d37-b890-f2ace77ed837)
 
